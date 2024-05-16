@@ -1,0 +1,70 @@
+*{
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #252525;
+}
+
+.container{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 8px 10px rgb(1, 2, 1);
+  border-radius: 5px; 
+  padding: 14px;
+  background-color: #e5f7fd;
+}
+
+label{
+  color: #000000;
+}
+
+.container input, button{
+  height: 40px;
+  width: 100%;
+  font-size: 30PX;
+}
+
+.container input{
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: rgb(84, 160, 201);
+  
+}
+
+.container select{
+  height: 40px;
+  font-size: 16px;
+  color: #1d1d1d;
+  text-align: center;
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.container select:hover{
+  background-color: #fffdfe;
+  color: #bfbfbf;
+}
+
+
+.container button{
+  border: none;
+  background-color: rgb(61, 157, 188);
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container button:hover{
+  background-color: #ffffff;
+}
+
+.container .resultado{
+  font-size: 20px;
+  text-align: center;
+  color: #1b94a9;
+}
